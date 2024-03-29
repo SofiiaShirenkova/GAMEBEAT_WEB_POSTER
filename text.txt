@@ -1,0 +1,12 @@
+state = hub
+
+studying packman
+packman
+died in packman
+
+studying battle
+battle
+died in battle
+
+studying life
+life

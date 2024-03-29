@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<canvas id="hubCanvas"></canvas>
+<div id="howToPlayWindow"><img src="./img/how_to_play_web.svg" id="howToPlayPic"></div>
+
+
+
+
+
+
+<!-- ПАКМАН -->
+<div id="pacmanDiv">
+<p id="p1"> 
+    <span>Score: </span> <span id="scoreEl">0</span>
+</p>
+
+<div id="backToMenu" onclick="closePackman()">
+    <img src="./imgPacman/closeGame.svg" id="backToMenuPic"zzz>
+</div>
+
+<canvas id="packmanCanvas"></canvas>
+
+<div id="studyScreenPack">
+    <img src="./imgPacman/how.svg" id="studyScreenForPacman">
+    <div id="close2"><img src="" id="but"></div>
+</div>
+
+<div id="endScreenPack">
+    <img src="./imgPacman/dead.svg" id="deadForPacman">
+    <div id="close"><img src="./imgPacman/close.png" id="but"></div>
+</div>
+
+<div id="anotherDevice"><img src="./imgPacman/anDevice.svg" id="anDeviceB"></div>
+</div>
+    
+
+
+
+
+
+
+
+
+<!-- КОРАБЛЬ -->
+<div id="spaceDiv">
+<p id="p2">
+    <span>Score:</span> <span id="scoreElSpace">0</span>
+</p>
+
+<canvas id="spaceCanvas"></canvas>
+
+<div id="studyScreenSpace">
+    <img src="./imgSpace/howTo.svg" id="studyScreenForShip">
+    <!-- <div id="close3"><img src="./img/close3.svg" id="but"></div> -->
+</div>
+
+<div id="endScreenSpace">
+    <img src="./imgSpace/deadinspace.svg" id="deadForShip">
+    <div id="close3"><img src="./imgSpace/close3.svg" id="but"></div>
+</div>
+
+<div id="backToMenueSpace" onclick="closeBattle()"><img src="./imgSpace/closeSpcaeB.svg" id="closeSpaceB"></div>
+
+<div id="anotherDevice3"><img src="./imgSpace/anDevice3.svg" id="anDeviceB3"></div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- ЖИЗНЬ -->
+<div id="lifeDiv">
+<canvas id = "lifeCanvas"></canvas>
+<div id="studyLife"><img src="./imgLife/studyLifeWindow.svg" id="studyLifeId"></div>
+
+<div id="buttons">
+    <div id="playB" onclick="PB()"><img src="imgLife/play.svg" id="playId"></div>
+    <div id="stopB" onclick="SB()"><img src="imgLife/stop.svg" id="stopId"></div>
+    <div id="randomB" onclick="RB()"><img src="imgLife/random.svg" id="randomId"></div>
+    <div id="clearB" onclick="CB()"><img src="imgLife/restart.svg" id="clearId"></div>
+</div>
+    
+<div id="backToMenuLife" onclick="closeLife()"><img src="imgLife/close4.svg" id="backToMenuLB"></div>
+    
+<div id="anotherDevice2">
+    <img src="./imgLife/anDevice2.svg" id="anDeviceB2">
+</div>
+
+</div>
+
+
+
+<script src="index.js"></script>
+
+</body>
+</html>
